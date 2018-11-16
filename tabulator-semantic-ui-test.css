@@ -2,7 +2,7 @@
 .tabulator{
 	position:relative;
 	background-color:#fff;
-	overflow:auto;
+	overflow:hidden;
 	font-size:12px;
 	text-align:left;
 	width:100%;
@@ -231,7 +231,7 @@
 	position:relative;
 	display:inline-block;
 	white-space:nowrap;
-	overflow:visible;
+	overflow:auto;
 	color:#333
 }
 .tabulator .tabulator-tableHolder .tabulator-table .tabulator-row.tabulator-calcs{
