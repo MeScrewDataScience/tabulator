@@ -199,7 +199,7 @@
 	position:relative;
 	width:100%;
 	white-space:nowrap;
-	overflow:auto;
+	overflow:scroll;
 	-webkit-overflow-scrolling:touch
 }
 .tabulator .tabulator-tableHolder:focus{
@@ -231,7 +231,7 @@
 	position:relative;
 	display:inline-block;
 	white-space:nowrap;
-	overflow:auto;
+	overflow:visible;
 	color:#333
 }
 .tabulator .tabulator-tableHolder .tabulator-table .tabulator-row.tabulator-calcs{
